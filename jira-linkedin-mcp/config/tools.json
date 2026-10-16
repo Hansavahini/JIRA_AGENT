@@ -5,7 +5,7 @@
       "name": "jira",
       "transport": "stdio",
       "command": "python",
-      "args": ["mcp_server/jira/server.py"],
+      "args": ["-m", "mcp_server.jira.server"],
       "enabled": true
     }
   ]
