@@ -1,0 +1,57 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django generated files
+staticfiles/
+media/
+db.sqlite3
+db.sqlite3-journal
+
+# Logs
+*.log
+logs/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# Secrets and local configuration
+secrets/
+*.pem
+*.key
+
+# Temporary files
+tmp/
+temp/
